@@ -4,8 +4,8 @@ import { colors } from '@/styles/Global'
 export const Button = styled('button', {
     height: "2.75rem",
     appearance: "none",
-    background: "$whiteFixed",
-    color: "$grey1",
+    background: "$grey6",
+    color: "$brand1",
     fontWeight: "600",
     padding: "0 2rem",
     border: "2px solid $whiteFixed",
@@ -22,7 +22,7 @@ export const Button = styled('button', {
         type: {
             btLink: {
                 background: "transparent",
-                borderColor: "transparent",
+                borderColor: "grey6",
             },
             primary: {
                 background: "$brand1",
